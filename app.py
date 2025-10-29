@@ -4,7 +4,7 @@ from groq_chat import chat_with_groq
 st.set_page_config(page_title="Chatbot", page_icon="👽", layout="centered")
 
 st.title("🤖 AI Chatbot")
-st.markdown("Chat with your AI model powered by **Groq API**!")
+st.markdown("powered by **Groq**!")
 
 # Chat history
 if "messages" not in st.session_state:
@@ -28,3 +28,4 @@ if user_input:
             st.markdown(response)
 
     st.session_state["messages"].append({"role": "assistant", "content": response})
+
