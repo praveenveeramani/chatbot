@@ -3,7 +3,8 @@
 
 ### 💡 **AI Chatbot using Groq API**
 
-**Tech Stack:** Python, Streamlit, Groq API, dotenv, Requests, HTML/CSS (UI Styling)
+**Tech Stack:** Python, Streamlit, Groq API, dotenv, Requests.
+
 **Live Demo:** [https://simplegroqchatbot.streamlit.app/](https://simplegroqchatbot.streamlit.app/)
 *(Note: If the app shows as inactive, click “**Wake up**” to restart it — Streamlit Community Cloud puts inactive apps in sleep mode.)*
 
